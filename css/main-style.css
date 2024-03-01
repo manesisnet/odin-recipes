@@ -1,5 +1,10 @@
 h2 {
-    font-size: 28px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+h6, h5, h4, h3, h2, h1, p, li {
+    font-family: Helvetica, sans-serif;
 }
 
 .materialbox {
@@ -20,12 +25,15 @@ body {
     padding: 5%;
 }
 
+.extrapadding {
+    padding: 5%;
+}
+
 .recipebox {
     /* width: 60%; */
     border-radius: 20px;
     height: auto;
     background-color: #f9f9f9;
-    background-image: url(../images/pancakes.jpeg);
     background-attachment: fixed;
     margin: 5%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -48,14 +56,15 @@ body {
 
 .recipebox:hover {
     box-shadow: rgba(49, 51, 53, 0.2) 0px 8px 24px;
-    transition-duration: 500ms;
+    transition-duration: 900ms;
+    scale: 1.007;
 }
 
 .recipeleft {
     padding: 7%;
     max-width: 42%;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8996192226890756) 10%, rgba(0,0,0,0.8015800070028012) 20%, rgba(0,0,0,0.7035407913165266) 30%, rgba(0,0,0,0.6027004551820728) 40%, rgba(0,0,0,0.4990589985994398) 50%, rgba(0,0,0,0.39821866246498594) 60%, rgba(0,0,0,0.3029805672268907) 70%, rgba(0,0,0,0.20214023109243695) 80%, rgba(0,0,0,0.10410101540616246) 90%, rgba(0,0,0,0) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8996192226890756) 10%, rgba(0, 0, 0, 0.8015800070028012) 20%, rgba(0, 0, 0, 0.7035407913165266) 30%, rgba(0, 0, 0, 0.6027004551820728) 40%, rgba(0, 0, 0, 0.4990589985994398) 50%, rgba(0, 0, 0, 0.39821866246498594) 60%, rgba(0, 0, 0, 0.3029805672268907) 70%, rgba(0, 0, 0, 0.20214023109243695) 80%, rgba(0, 0, 0, 0.10410101540616246) 90%, rgba(0, 0, 0, 0) 100%);
     z-index: 888;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -70,11 +79,11 @@ button {
     background-color: orange;
     border-radius: 10px;
     border-width: 0px;
-    font-size: 12px;
+    font-size: 17px;
     margin-top: 15px;
 }
 
 button:hover {
-    background-color:rgb(255, 200, 60);
+    background-color: rgb(255, 200, 60);
     transition-duration: 200ms;
 }
