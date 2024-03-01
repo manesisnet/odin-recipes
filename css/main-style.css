@@ -42,16 +42,19 @@ body {
 .recipebox.one {
     background-image: url(../images/pancakes.jpeg);
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .recipebox.two {
     background-image: url(../images/tapenade.jpeg);
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .recipebox.three {
     background-image: url(../images/greek-salad.jpeg);
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .recipebox:hover {
